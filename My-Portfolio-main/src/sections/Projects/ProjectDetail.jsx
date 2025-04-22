@@ -3,14 +3,14 @@ import { Link, useParams } from 'react-router-dom';
 import styles from './ProjectDetailStyles.module.css';
 
 // Educator images
-// import educator1 from '../../assets/educator1.png';
-// import educator2 from '../../assets/educator2.png';
-import bing from '../../assets/bing.webp';
-import bingoo from '../../assets/bingoo.webp';
+import educator1 from '../../assets/educator1.png';
+import educator2 from '../../assets/educator2.png';
+// import bing from '../../assets/bing.webp';
+// import bingoo from '../../assets/bingoo.webp';
 
 // Leads images
-import kitaaab from '../../assets/kitaaab.png';
-import leads2 from '../../assets/leads2.png';
+// import kitaaab from '../../assets/kitaaab.png';
+// import leads2 from '../../assets/leads2.png';
 
 // Travel images
 // import travel1 from '../../assets/travel1.png';
@@ -29,7 +29,7 @@ const projectData = {
     title: "Bingooo",
     description: "BingoGo is a fun and interactive digital version of the classic Bingo game. Players receive a randomized Bingo card and mark off numbers as they’re called out. The first player to complete a winning pattern (row, column, diagonal, or special shape) shouts and wins the round.",
     tech: ["Android Studio, Java, Firebase (for authentication & real-time database), Retrofit (for API calls)." ],
-    images: [bing, bingoo],
+    images: [educator1, educator2],
     github: "https://github.com/Udayydv/kitaab",
   },
 
@@ -55,13 +55,13 @@ const projectData = {
   //   images: [dh1, dh2],
   //   github: "https://github.com/Udayydv/DH-Traders",
   // },
-  voice: {
-    title: "Khatabook",
-    description: "Developed a full-stack Khatabook-inspired application that helps small business owners and individuals track credits, debits, and customer transactions digitally. The app replicates traditional ledger-keeping with added features like customer management, payment reminders, and real-time updates.",
-    tech: ["ReactJS", "Node.js", "Express", "MongoDB",],
-    images: [khatabook, insideKhata],
-    github: "https://github.com/Udayydv/Smart-Voice-Assistant",
-  },
+  // voice: {
+  //   title: "Khatabook",
+  //   description: "Developed a full-stack Khatabook-inspired application that helps small business owners and individuals track credits, debits, and customer transactions digitally. The app replicates traditional ledger-keeping with added features like customer management, payment reminders, and real-time updates.",
+  //   tech: ["ReactJS", "Node.js", "Express", "MongoDB",],
+  //   images: [khatabook, insideKhata],
+  //   github: "https://github.com/Udayydv/Smart-Voice-Assistant",
+  // },
 };
 
 export default function ProjectDetail() {

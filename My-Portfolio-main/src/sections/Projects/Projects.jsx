@@ -1,9 +1,10 @@
 import styles from './ProjectsStyles.module.css';
 import ecom from '../../assets/ecom.jpg';
+import bing from '../../assets/bing.webp'
 import educator from '../../assets/educator_logo.png';
 // import dh from '../../assets/dh.jpeg';
 // import voice from '../../assets/voice.png';
-import khatabook from '../../assets/khatabook.png';
+// import khatabook from '../../assets/khatabook.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -12,7 +13,7 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={educator}
+          src={bing}
           to="/projects/educator"
           h3="Educator"
           p={
