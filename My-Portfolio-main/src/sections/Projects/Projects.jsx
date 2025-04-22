@@ -4,7 +4,7 @@ import bing from '../../assets/bing.webp'
 import educator from '../../assets/educator_logo.png';
 // import dh from '../../assets/dh.jpeg';
 // import voice from '../../assets/voice.png';
-import khatabook from '../../assets/khatabook.png';
+import foodies from '../../assets/foodie.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -42,7 +42,7 @@ function Projects() {
           p="E - commerce Platform"
         /> */}
         <ProjectCard
-          src={khatabook}
+          src={foodies}
           to="/projects/voice"
           h3="Foodie"
           p="Food Delivery App"
