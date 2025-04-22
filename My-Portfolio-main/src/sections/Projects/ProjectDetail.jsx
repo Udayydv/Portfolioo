@@ -3,10 +3,10 @@ import { Link, useParams } from 'react-router-dom';
 import styles from './ProjectDetailStyles.module.css';
 
 // Educator images
-import educator1 from '../../assets/educator1.png';
-import educator2 from '../../assets/educator2.png';
-// import bing from '../../assets/bing.webp';
-// import bingoo from '../../assets/bingoo.webp';
+// import educator1 from '../../assets/educator1.png';
+// import educator2 from '../../assets/educator2.png';
+import bing from '../../assets/bing.webp';
+import bingoo from '../../assets/bingoo.jpg';
 
 // Leads images
 // import kitaaab from '../../assets/kitaaab.png';
@@ -20,16 +20,16 @@ import educator2 from '../../assets/educator2.png';
 // import dh1 from '../../assets/dh1.png';
 // import dh2 from '../../assets/dh2.png';
 
-// Voice images
-import khatabook from '../../assets/khatabook.png';
-import insideKhata from '../../assets/insideKhata.png';
+// food images
+import foodie from '../../assets/foodie.png';
+import fooddd from '../../assets/fooddd.png';
 
 const projectData = {
   Bingooo: {
     title: "Bingooo",
     description: "BingoGo is a fun and interactive digital version of the classic Bingo game. Players receive a randomized Bingo card and mark off numbers as they’re called out. The first player to complete a winning pattern (row, column, diagonal, or special shape) shouts and wins the round.",
     tech: ["Android Studio, Java, Firebase (for authentication & real-time database), Retrofit (for API calls)." ],
-    images: [educator1, educator2],
+    images: [bing, bingoo],
     github: "https://github.com/Udayydv/kitaab",
   },
 
@@ -59,7 +59,7 @@ const projectData = {
     title: "Food Delivery App",
     description: "QuickBite is a user-friendly, on-demand food delivery app that connects hungry customers with their favorite local restaurants. With a sleek interface, real-time order tracking, and personalized recommendations, QuickBite offers a seamless experience from browsing to delivery.",
     tech: ["Android Studio, Java, Firebase (Authentication, Firestore, Storage), Retrofit (API calls), GoogleMaps API (Order tracking), Room Database (Local storage). "],
-    images: [khatabook, insideKhata],
+    images: [foodie, fooddd],
     github: "https://github.com/Udayydv/Smart-Voice-Assistant",
   },
 };
