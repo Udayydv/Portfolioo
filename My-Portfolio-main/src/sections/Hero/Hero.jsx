@@ -11,6 +11,7 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 // import CV from '../../assets/cv.pdf';
 import udcv from '../../assets/uday general cv - Copy.pdf'
+import anuragcv from '../../assets/AnuragCV.pdf'
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -59,7 +60,7 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={udcv} download>
+        <a href={anuragcv} download>
           <button className="hover">Resume</button>
         </a>
       </div>
