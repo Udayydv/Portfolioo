@@ -41,7 +41,7 @@ function Hero() {
         <h1>
           Anurag
           <br />
-          Yadav
+          Singh Yadav
         </h1>
         <h2>Full Stack Web Developer</h2>
         <span>
