@@ -39,7 +39,7 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Uday
+          Anurag
           <br />
           Yadav
         </h1>
