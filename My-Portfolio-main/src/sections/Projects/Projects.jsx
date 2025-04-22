@@ -15,20 +15,20 @@ function Projects() {
         <ProjectCard
           src={bing}
           to="/projects/educator"
-          h3="Educator"
+          h3="Bingo"
           p={
             <>
-              A learning management <br />
-              platform (LMS)
+              Bingooo <br />
+              
             </>
           }
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={ecom}
           to="/projects/leads"
           h3="Kitaab"
           p="Stationary E-commerce platform"
-        />
+        /> */}
         {/* <ProjectCard
           src={travel}
           to="/projects/travel"
@@ -44,8 +44,8 @@ function Projects() {
         <ProjectCard
           src={khatabook}
           to="/projects/voice"
-          h3="Khatabook"
-          p="Expense Tracker"
+          h3="Foodie"
+          p="Food Delivery App"
         />
       </div>
     </section>
