@@ -3,14 +3,12 @@ import { Link, useParams } from 'react-router-dom';
 import styles from './ProjectDetailStyles.module.css';
 
 // Educator images
-// import educator1 from '../../assets/educator1.png';
-// import educator2 from '../../assets/educator2.png';
-import bing from '../../assets/bing.webp';
+import bing from '../../assets/bing.jpg';
 import bingoo from '../../assets/bingoo.jpg';
 
 // Leads images
-// import kitaaab from '../../assets/kitaaab.png';
-// import leads2 from '../../assets/leads2.png';
+import kitaaab from '../../assets/kitaaab.png';
+import leads2 from '../../assets/leads2.png';
 
 // Travel images
 // import travel1 from '../../assets/travel1.png';
@@ -20,26 +18,26 @@ import bingoo from '../../assets/bingoo.jpg';
 // import dh1 from '../../assets/dh1.png';
 // import dh2 from '../../assets/dh2.png';
 
-// food images
+// Voice images
+import fooddd from '../../assets/fooddd.jpg';
 import foodie from '../../assets/foodie.png';
-import fooddd from '../../assets/fooddd.png';
 
 const projectData = {
-  Bingooo: {
-    title: "Bingooo",
+  educator: {
+    title: "E-learning Platform",
     description: "BingoGo is a fun and interactive digital version of the classic Bingo game. Players receive a randomized Bingo card and mark off numbers as they’re called out. The first player to complete a winning pattern (row, column, diagonal, or special shape) shouts and wins the round.",
-    tech: ["Android Studio, Java, Firebase (for authentication & real-time database), Retrofit (for API calls)." ],
+    tech: ["Android Studio, Java, Firebase (for authentication & real-time database), Retrofit (for API calls)."],
     images: [bing, bingoo],
     github: "https://github.com/Udayydv/kitaab",
   },
 
-  // Food: {
-  //   title: "Food Delivery App",
-  //   description: "QuickBite is a user-friendly, on-demand food delivery app that connects hungry customers with their favorite local restaurants. With a sleek interface, real-time order tracking, and personalized recommendations, QuickBite offers a seamless experience from browsing to delivery.",
-  //   tech: ["Android Studio, Java, Firebase (Authentication, Firestore, Storage), Retrofit (API calls), GoogleMaps API (Order tracking), Room Database (Local storage). "],
-  //   images: [educator1, educator2],
-  //   github: "https://github.com/Udayydv/kitaab",
-  // },
+  kitaab: {
+    title: "Kitaab E-commerce Platform",
+    description: "Kitaab is an E-commerce platform, providing the best quality of Stationary all over the market.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    images: [kitaaab, ],
+    github: "https://github.com/Udayydv/kitaab",
+  },
   
   // travel: {
   //   title: "Travel ToGetHer",
@@ -55,11 +53,11 @@ const projectData = {
   //   images: [dh1, dh2],
   //   github: "https://github.com/Udayydv/DH-Traders",
   // },
-  Food: {
+  voice: {
     title: "Food Delivery App",
     description: "QuickBite is a user-friendly, on-demand food delivery app that connects hungry customers with their favorite local restaurants. With a sleek interface, real-time order tracking, and personalized recommendations, QuickBite offers a seamless experience from browsing to delivery.",
-    tech: ["Android Studio, Java, Firebase (Authentication, Firestore, Storage), Retrofit (API calls), GoogleMaps API (Order tracking), Room Database (Local storage). "],
-    images: [foodie, fooddd],
+    tech: ["Android Studio, Java, Firebase (Authentication, Firestore, Storage), Retrofit (API calls), GoogleMaps API (Order tracking), Room Database (Local storage). ",],
+    images: [fooddd, foodie],
     github: "https://github.com/Udayydv/Smart-Voice-Assistant",
   },
 };

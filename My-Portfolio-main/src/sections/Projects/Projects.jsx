@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 // import ecom from '../../assets/ecom.jpg';
-import bing from '../../assets/bing.webp'
+import bing from '../../assets/bing.jpg'
 // import educator from '../../assets/educator_logo.png';
 // import dh from '../../assets/dh.jpeg';
 // import voice from '../../assets/voice.png';
