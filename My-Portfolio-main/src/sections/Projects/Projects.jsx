@@ -4,7 +4,7 @@ import bing from '../../assets/bing.webp'
 import educator from '../../assets/educator_logo.png';
 // import dh from '../../assets/dh.jpeg';
 // import voice from '../../assets/voice.png';
-// import khatabook from '../../assets/khatabook.png';
+import khatabook from '../../assets/khatabook.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
