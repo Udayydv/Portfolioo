@@ -24,17 +24,17 @@ import insideKhata from '../../assets/insideKhata.png';
 
 const projectData = {
   educator: {
-    title: "E-learning Platform",
-    description: "Built a scalable E-Learning platform that allows students to enroll in courses, track progress, and engage with interactive learning materials. The platform supports both instructors and students, enabling content upload, quizzes, and real-time progress analytics.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    title: "Bingooo",
+    description: "BingoGo is a fun and interactive digital version of the classic Bingo game. Players receive a randomized Bingo card and mark off numbers as they’re called out. The first player to complete a winning pattern (row, column, diagonal, or special shape) shouts and wins the round.",
+    tech: ["Android Studio, Java, Firebase (for authentication & real-time database), Retrofit (for API calls)." ],
     images: [educator1, educator2],
     github: "https://github.com/Udayydv/kitaab",
   },
 
   kitaab: {
-    title: "Kitaab E-commerce Platform",
-    description: "Kitaab is an E-commerce platform, providing the best quality of Stationary all over the market.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    title: "Food Delivery App",
+    description: "QuickBite is a user-friendly, on-demand food delivery app that connects hungry customers with their favorite local restaurants. With a sleek interface, real-time order tracking, and personalized recommendations, QuickBite offers a seamless experience from browsing to delivery.",
+    tech: ["Android Studio, Java, Firebase (Authentication, Firestore, Storage), Retrofit (API calls), GoogleMaps API (Order tracking), Room Database (Local storage). "],
     images: [kitaaab, educator2],
     github: "https://github.com/Udayydv/kitaab",
   },
