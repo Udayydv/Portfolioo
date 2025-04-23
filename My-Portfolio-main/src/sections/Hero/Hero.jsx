@@ -57,7 +57,7 @@ function Hero() {
         </span>
         <p className={styles.description}>
         A Data Science student passionate about transforming data into meaningful insights.
-        Skilled in data analysis, machine learning, and visualization, with hands-on experience using Python, SQL, Pandas, Scikit-learn, and Tableau. Driven by curiosity and a problem-solving mindset, and always eager to apply data-driven solutions to real-world challenges.
+        Skilled in data analysis, machine learning, and visualization, with hands-on experience using Python, SQL, Pandas, Scikit-learn, and Tableau.
         </p>
         <a href={anuragcv} download>
           <button className="hover">Resume</button>
