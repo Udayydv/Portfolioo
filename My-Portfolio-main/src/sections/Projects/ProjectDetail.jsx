@@ -58,7 +58,7 @@ const projectData = {
     description: "QuickBite is a user-friendly, on-demand food delivery app that connects hungry customers with their favorite local restaurants. With a sleek interface, real-time order tracking, and personalized recommendations, QuickBite offers a seamless experience from browsing to delivery.",
     tech: ["Android Studio, Java, Firebase (Authentication, Firestore, Storage), Retrofit (API calls), GoogleMaps API (Order tracking), Room Database (Local storage). ",],
     images: [fooddd, foodie],
-    github: "https://github.com/Udayydv/Smart-Voice-Assistant",
+    github: "https://github.com/anuragyadav7905",
   },
 };
 
