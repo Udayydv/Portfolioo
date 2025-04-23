@@ -43,7 +43,7 @@ function Hero() {
           <br />
           Singh Yadav
         </h1>
-        <h2>Full Stack Web Developer</h2>
+        <h2>Data Science</h2>
         <span>
           {/* <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
