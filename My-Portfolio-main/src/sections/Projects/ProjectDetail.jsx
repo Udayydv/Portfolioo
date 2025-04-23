@@ -24,11 +24,11 @@ import foodie from '../../assets/foodie.png';
 
 const projectData = {
   educator: {
-    title: "E-learning Platform",
+    title: "Bingo",
     description: "BingoGo is a fun and interactive digital version of the classic Bingo game. Players receive a randomized Bingo card and mark off numbers as they’re called out. The first player to complete a winning pattern (row, column, diagonal, or special shape) shouts and wins the round.",
     tech: ["Android Studio, Java, Firebase (for authentication & real-time database), Retrofit (for API calls)."],
     images: [bing, bingoo],
-    github: "https://github.com/Udayydv/kitaab",
+    github: "https://github.com/anuragyadav7905",
   },
 
   kitaab: {
@@ -36,7 +36,7 @@ const projectData = {
     description: "Kitaab is an E-commerce platform, providing the best quality of Stationary all over the market.",
     tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     images: [kitaaab, ],
-    github: "https://github.com/Udayydv/kitaab",
+    github: "https://github.com/anuragyadav7905",
   },
   
   // travel: {
