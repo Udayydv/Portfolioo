@@ -56,8 +56,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        A Data Science student passionate about transforming data into meaningful insights.
+        Skilled in data analysis, machine learning, and visualization, with hands-on experience using Python, SQL, Pandas, Scikit-learn, and Tableau. Driven by curiosity and a problem-solving mindset, and always eager to apply data-driven solutions to real-world challenges.
         </p>
         <a href={anuragcv} download>
           <button className="hover">Resume</button>
